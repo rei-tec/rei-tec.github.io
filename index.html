@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <br>
+    <div class="row" style="display: flex; gap: 20px; justify-content: center;"></div>
+    <br><br>
+    <title>REI MACHINES</title>
+  </head>
+
+  <body style="background-color:#000000; color: #ee9a00">
+    <center>
+      <h1 style="font-size: 42px">REI MACHINES ・ 零機械</h1> 
+    <p style="font-family: monospace ; width: 800px; font-size: 18px ; text-align: left"> We make drones from scratch in Alberta for combat and agriculture.
+    </p>
+    <p style="font-family: monospace ; width: 800px; font-size: 18px ; text-align: left"> We're hiring engineers, technicians, and interns [mechanical, electronics, software], both part time and full time, in Calgary. If you want to design the best drones around, email us your resume by converting the ASCII below and applying a caesar cipher with a shift of 25.
+    </p>
+    <p style="font-family: monospace ; width: 1200px; font-size: 18px ; color: #ee9a00">
+      115 102 106 45 117 102 100 105 111 112 109 112 104 106 102 116
+      @ 113 115 112 117 112 111
+      . 110 102 
+    </p>
+    <br><br>
+    <div class="row" style="display: flex; gap: 15px; justify-content: center;"></div>
+    <script>
+      const cores = navigator.hardwareConcurrency || 10;
+      const rows = document.querySelectorAll('.row');
+      rows.forEach(row => {
+          for (let i = 0; i < cores; i++) {
+              row.innerHTML += '<img src="logo-tight.svg" style="width: 150px; height: auto;">';
+          }
+      });
+    </script>
+  </center>
+  </body>
+</html>
